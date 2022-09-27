@@ -17,8 +17,8 @@ As an introvert I can't be comfortable with having attention on me and I don't t
    - [ ] design
    - [ ] smart contract
 - [ ] Create the website 
-
-
+- [ ] Create/setting up the discord
+- [ ] Talk about the introvertsDAO on social media/discord
 
 
 
