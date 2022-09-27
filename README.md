@@ -21,8 +21,3 @@ As an introvert I can't be comfortable with having attention on me and I don't t
 - [ ] Talk about the introvertsDAO on social media/discord
 
 
-
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
