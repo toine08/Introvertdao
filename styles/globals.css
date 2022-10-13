@@ -5,6 +5,44 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+html{
+  background-color: #1E1E1E;
+  backdrop-filter: blur(25px);
+  background: radial-gradient(50% 50% at 50% 50%, #846363 0%, rgba(24, 23, 23, 0) 97.33%),
+  radial-gradient(50% 70% at 20% 4%, #9fc1f7 0%, rgba(24, 23, 23, 0) 97.33%),
+  radial-gradient(50% 72% at 20% 90%, #95ebb6 0%, rgba(24, 23, 23, 0) 100%),
+  radial-gradient(45% 55% at 80% 4%,#ebd795 0%, rgba(24, 23, 23, 0) 100% ),
+  radial-gradient(55% 72% at 80% 90%,#eb95c3 0%, rgba(24, 23, 23, 0) 100% )
+   /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@keyframes backgroundmouvement {
+  0%{
+    background: radial-gradient(20% 70% at 10% 50%, #846363 0%, rgba(24, 23, 23, 0) 100%),
+    radial-gradient(25% 50% at 10% 33%, #9fc1f7 0%, rgba(24, 23, 23, 0) 100%),
+    radial-gradient(10% 55% at 22% 50%, #95ebb6 0%, rgba(24, 23, 23, 0) 100%),
+    radial-gradient(33% 72% at 72% 14%,#ebd795 0%, rgba(24, 23, 23, 0) 100% ),
+    radial-gradient(10% 23% at 50% 10%,#eb95c3 0%, rgba(24, 23, 23, 0) 100% )
+  }
+  50%{
+    background: radial-gradient(10% 23% at 50% 10%, #846363 0%, rgba(24, 23, 23, 0) 100%),
+    radial-gradient(33% 72% at 72% 14%, #9fc1f7 0%, rgba(24, 23, 23, 0) 100%),
+    radial-gradient(25 50% at 10% 33%, #95ebb6 0%, rgba(24, 23, 23, 0) 100%),
+    radial-gradient(10% 55% at 22% 50%,#ebd795 0%, rgba(24, 23, 23, 0) 100% ),
+    radial-gradient(20% 70% at 10% 50%,#eb95c3 0%, rgba(24, 23, 23, 0) 100% )
+  }
+  100%{
+      background: radial-gradient(50% 50% at 50% 50%, #846363 0%, rgba(24, 23, 23, 0) 97.33%),
+  radial-gradient(50% 70% at 20% 4%, #9fc1f7 0%, rgba(24, 23, 23, 0) 97.33%),
+  radial-gradient(50% 72% at 20% 90%, #95ebb6 0%, rgba(24, 23, 23, 0) 100%),
+  radial-gradient(45% 55% at 80% 4%,#ebd795 0%, rgba(24, 23, 23, 0) 100% ),
+  radial-gradient(55% 72% at 80% 90%,#eb95c3 0%, rgba(24, 23, 23, 0) 100% )
+   /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-repeat: no-repeat;
+  }
+  
+}
 
 a {
   color: inherit;
@@ -21,6 +59,5 @@ a {
   }
   body {
     color: white;
-    background: black;
   }
 }
