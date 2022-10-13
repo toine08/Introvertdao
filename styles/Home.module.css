@@ -21,6 +21,7 @@
 }
 .footer {
   width: 250px;
+  margin-top: 5px;
   bottom: 0;
   width: 100%;
   position: absolute;
@@ -41,8 +42,12 @@
     display: none;
   }
   .dao{
+    text-align: left;
     width: 100%;
     display: flex;
+  }
+  .footer{
+    position: relative;
   }
   
 }
