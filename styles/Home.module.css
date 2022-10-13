@@ -29,7 +29,23 @@
   align-items: center;
 }
 
+.dao{
+  margin-top: 5%;
+  display: flex;
+  width: 75%;
+  text-align: justify;
+}
 
+@media (max-width:800px){
+  .logo{
+    display: none;
+  }
+  .dao{
+    width: 100%;
+    display: flex;
+  }
+  
+}
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -115,11 +131,7 @@
   transition: all 200ms;
   transform: rotate(0deg);
 }
-.text{
-  margin-top: 5%;
-  display: flex;
-  width: 75%;
-}
+
 .icons{
   margin-left: 5px;
   font-size: 35px;

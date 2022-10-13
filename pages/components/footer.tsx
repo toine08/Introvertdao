@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Foot: NextPage = () => {
   return (
     <div className={styles.footer}>
-       <p>Create by&nbsp;<a href="https://github.com/toine08">togido</a> @2022 - IntrovertDAO</p>
+       <p>Create by&nbsp;<a href="farcaster://profiles/0x8B4510249147C4705e8641262CD34F78325C1a2f">togido</a> @2022 - IntrovertDAO</p>
     </div>
   )
 }

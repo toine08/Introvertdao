@@ -61,3 +61,11 @@ a {
     color: white;
   }
 }
+
+@media (max-width:800px){
+  main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+  }
+}
